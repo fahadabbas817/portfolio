@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  body{
+    @apply font-primary bg-primary text-white leading-loose;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  h1{
+    @apply text-[3rem] xl:text-[6rem] leading-[1.1] font-semibold;
+  }
+  h2{
+    @apply text-[2rem] xl:text-[4rem] leading-[1.1] font-semibold;
+  }
+
+
+.text-outline {
+-webkit-text-stroke: 1px #ffffff;
+}
+
+.text-outline-hover {
+-webkit-text-stroke: 1px #00ff99;
+}
+  :root {
+
+    --radius: 0.5rem
+  }
+}
